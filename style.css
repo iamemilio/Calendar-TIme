@@ -1,0 +1,19 @@
+/*style.css*/
+body {
+    font-family: 'Open Sans';
+    /*background-color: rgba(255,0,0, 0.1);*/
+
+}
+#header {
+    text-align: center;
+    color: #32CD32;
+
+}
+
+input {
+    width: 300px;
+}
+#task-input {
+    text-align: center;
+
+}

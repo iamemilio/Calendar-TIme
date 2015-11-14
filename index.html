@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Get the F**k to Work</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <script src="main.js"></script>
-    </head>
+<head>
+<title>Get the F**k to Work</title>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="main.js"></script>
+</head>
 
-    <body>
+<body>
 
-    </body>
 </html>
-    <div id="header">
+<div id="header">
+    <h1>Hey! Let's get to work</h1>
+    <h3>What do you want to get done today?</h3>
+</div>
+<div id="task-input">
+    <!--<form action="demo_form.asp">-->
+    <input type="text" name="task" placeholder="e.g.Take over the World">
+    <button type="button" id="new_task_button" onclick="make_task()">Add Task</button>
+    <!--</form>-->
+</div>
 
+<div id="workspace">
+<div id="tasks">
 
-    </div>
+</div>
+<div id="timer">
+    <a id="time-left">Time until break: </a>
+    <a id="session time">Total time</a>
+</div>
+</div>
+
+</body>
